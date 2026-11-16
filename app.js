@@ -25,3 +25,18 @@ temoignages.forEach(function (temoignages, index){
 
     }, (index + 1) * 500);
 });
+
+
+const conteneur = document.querySelector(".testimonials");
+
+conteneur.addEventListener("click", function(event){
+    if (event.target.closest("button")){
+        return;
+    }
+    const temoignages = event.target.closest(".card-testimonials");
+
+    if(temoignages){
+        const auteur = temoignages.querySelector("cite");
+        alert(auteur.textContent);
+    }
+}, true);
