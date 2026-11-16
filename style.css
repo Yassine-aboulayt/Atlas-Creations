@@ -117,5 +117,6 @@ footer{
     background-color: #18212b;
 }
 .highlight{
-    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #E74C3C;
 }
