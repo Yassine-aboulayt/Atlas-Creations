@@ -48,3 +48,12 @@ footer.addEventListener("click", function (){
 
     navigator.clipboard.writeText(footer.textContent.trim())
 });
+
+
+const menus = document.querySelectorAll("#menu");
+const cartes = document.querySelectorAll(".card");
+const checkboxes = document.querySelectorAll('#filters input[type="checkbox"]');
+
+console.log("menus :", menus.length);
+console.log("cartes :", cartes.length);
+console.log("checkboxes :", checkboxes.length)
