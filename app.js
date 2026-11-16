@@ -40,3 +40,11 @@ conteneur.addEventListener("click", function(event){
         alert(auteur.textContent);
     }
 }, true);
+
+
+const footer = document.querySelector("footer");
+
+footer.addEventListener("click", function (){
+
+    navigator.clipboard.writeText(footer.textContent.trim())
+});
