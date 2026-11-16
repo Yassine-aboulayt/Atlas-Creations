@@ -15,3 +15,13 @@ lienSrv.forEach(function (lien) {
      }
     });
 });
+
+
+const temoignages = document.querySelectorAll(".card-testimonials");
+
+temoignages.forEach(function (temoignages, index){
+    setTimeout(function(){
+        temoignages.classList.add("fade-in");
+
+    }, (index + 1) * 500);
+});

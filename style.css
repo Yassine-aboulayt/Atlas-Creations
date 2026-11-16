@@ -120,3 +120,11 @@ footer{
     text-decoration: underline;
     text-decoration-color: #E74C3C;
 }
+.card-testimonials {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card-testimonials.fade-in {
+  opacity: 1;
+}
