@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+}
+header{
+    background-color: #18212b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+section{
+    padding: 40px;
+}
+a{
+    color: #ECF0F1;
+    text-decoration: none;
+}
+button{
+    background-color: #E74C3C;
+    color: #17212B;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+#accueil{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+.accueil-text{
+    width: 50%;
+}
+#accueil img{
+    width: 50%;
+    margin: 0;
+    border-radius: 8px;
+
+}
+.accueil-text a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #E74C3C;
+  color: #17212B;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+.testimonials,
+#produits-list,
+#productList {
+  display: flex;
+  gap: 20px;
+}
+.card{
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    padding: 20px;
+    border-radius: 8px;
+}
+.card-testimonials{
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    padding: 20px;
+    border-radius: 8px;
+}
+cite{
+    display: block;
+    margin-bottom: 15px;
+}
+#cart{
+    list-style: none;
+}
+#total{
+    font-weight: bold;
+}
+#filters{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+}
+#contact-form label {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 5px;
+}
+#contact-form input{
+    padding: 10px;
+    border: none ;
+    border-radius: 8px;
+}
+#contact-form textarea{
+    padding: 10px;
+    border: none ;
+    border-radius: 8px;
+    min-width: 120px;
+}
+#sbmt {
+    align-self: flex-start;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #18212b;
+}
+.highlight{
+    color: #000000;
+}

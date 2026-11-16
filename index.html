@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atlas Créations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header id="menu">
+
+        <img src="/images/Logo Atlas Créations, montagne géométrique.png" alt="Logo" width="140px">
+        <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="accueil">
+            <div class="accueil-text">
+            <h1>Le web au service des artisans</h1>
+            <p>
+             Atlas Créations accompagne les artisans marocains dans leur présence
+             en ligne. Nous créons des sites web modernes, simples et adaptés à
+             vos besoins pour mettre en valeur votre savoir-faire et développer
+             votre activité.
+            </p>
+            <a href="#services">Decouvrir nous services</a>
+            </div>
+            <img src="/images/Mains d’artisan sur céramique marocaine.png" alt="Artisan marocain décorant un bol en céramique">
+        </section>
+        <section id="services" hidden>
+            <h2>Nos services</h2>
+            <ul id="services-list"></ul>
+            <button type="button" id="ajt-srv">ajouter un service</button>
+        </section>
+        <section id="temoignages">
+            <h2>Témoignages</h2>
+            <div class="testimonials">
+                <article class="card-testimonials">
+                    <blockquote>Un site professionnel et moderne !</blockquote>
+                    <cite>Ahmed El Idrissi</cite>
+                    <button type="button">details</button>
+
+                </article>
+                <article class="card-testimonials"> 
+                    <blockquote>Une équipe à l’écoute de mes besoins.</blockquote>  
+                    <cite>Fatima Benali</cite>
+                    <button type="button">details</button>
+
+                </article>
+                <article class="card-testimonials">
+                    <blockquote>Je recommande Atlas Création !</blockquote>
+                    <cite>Youssef Alaoui</cite>
+                    <button type="button">details</button>
+                    
+
+                </article>
+            </div>
+        </section>
+        <section id="produits">
+            <h2>Nos produits</h2>
+            <ul id="produits-list">
+                <li class="card">
+                    <h3>Site vitrine</h3>
+                    <p>Un site pour presenter votre activite.</p>
+                    <p>Prix : 2500 MAD</p>
+                    <button type="button">ajouter</button>
+                </li>
+                <li class="card">
+                    <h3>Création de logo</h3>
+                    <p>Prix : 500 MAD</p>
+                    <button type="button">Ajouter</button>
+                </li>
+            </ul>
+            <ul id="cart"></ul>
+            <p>Total : <span id="total">0 </span>MAD</p>
+        </section>
+        <section id="filters">
+            <h2>Filtres</h2>
+            <form id="filters">
+            <label><input type="checkbox">Sites web</label>
+            <label><input type="checkbox">Logos</label>
+            <label><input type="checkbox">Accompagnement</label>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form">
+                <label>Nom : <input type="text"></label>
+                <label>Email : <input type="email"></label>
+                <label>Message : <textarea></textarea></label>
+                <button type="submit" id="sbmt">Envoye</button>
+            </form>
+        </section>
+        <footer data-copy="© 2026 Atlas Créations. Tous droits réservés.">
+            <p>© 2026 Atlas Créations. Tous droits réservés.</p>
+        </footer>
+
+    </main>
+    
+</body>
+</html>
